@@ -1,0 +1,237 @@
+.login-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-hi {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Timmana", sans-serif;
+}
+
+.login-header {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-head-img {
+  width: 800px;
+  height: 800px;
+  margin-top: -120px;
+}
+
+.log-dis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-acc {
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: -30px;
+  margin-bottom: 40px;
+  font-family: "Gamja Flower", cursive;
+
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.login-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.login-item {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.login-table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+tr {
+  height: 40px;
+}
+
+table {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  height: 120px;
+  border: 3px solid red;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px red;
+  border-collapse: collapse;
+}
+
+.box-table {
+  display: none;
+}
+
+tr,
+th,
+td {
+  font-size: 20px;
+  border: 3px solid red;
+
+  /* border: 1.5px solid black; */
+}
+
+.taklif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.tab-taklif {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  font-weight: normal;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.link {
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}
+
+/* login page */
+
+.log-position {
+  width: 80%;
+  border-radius: 10px;
+  justify-content: center;
+  background-image: url(https://cdn.wallpapersafari.com/55/81/x28dBh.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.page-two {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logo-login {
+  width: 80px;
+}
+
+.login-wrapp {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+  width: 320px;
+  height: 35px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hato {
+  width: 320px;
+  height: 35px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border: 3px solid red;
+}
+
+.hato::placeholder {
+  color: red;
+}
+
+.login-btn {
+  margin-left: 70px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  width: 180px;
+  height: 45px;
+  background: linear-gradient(to right, rgb(238, 255, 0), rgb(255, 123, 0));
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.inputs-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.forgot {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.yoq {
+  display: none;
+}
+
+.pageing {
+  display: block;
+}
+
+.view-two {
+  border: 1px solid rgb(110, 110, 110);
+  display: flex;
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.view-hato {
+  border: 3px solid red;
+  display: flex;
+  background-color: white;
+  margin-bottom: 30px;
+  width: 316px;
+  height: 40px;
+}
+
+.view-hato input::placeholder {
+  color: red;
+}
+
+.view-hato input {
+  border: none;
+  outline: none;
+}
+
+.view-two input {
+  border: none;
+  outline: none;
+}
+
+.eye {
+  margin-top: 10px;
+  margin-right: 10px;
+}

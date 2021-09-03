@@ -1,0 +1,110 @@
+.kontakt {
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontakt-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kont-header {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-family: "Timmana", sans-serif;
+  font-size: 49px;
+}
+
+.kont-img {
+  width: 800px;
+}
+
+.kont-wrapp {
+  font-family: monospace;
+  margin-top: 120px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.kont-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.kont1 {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.icon-user {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-phone {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fa-phone {
+  font-size: 30px;
+  color: green;
+  margin-right: 13px;
+}
+
+.fa-user {
+  font-size: 30px;
+  color: rgb(233, 152, 1);
+  margin-right: 13px;
+}
+
+.kont2 {
+  flex: 1;
+  margin-left: 120px;
+}
+
+.kont2-nik {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+  cursor: pointer;
+}
+
+.kont2-item {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: monospace;
+  color: black;
+}
+
+.kont2-icons-tel {
+  margin-right: 13px;
+  font-size: 40px;
+  color: rgb(5, 148, 231);
+}
+
+.kont2-icons-ins {
+  margin-right: 13px;
+  font-size: 40px;
+  color: rgb(231, 58, 5);
+}
+
+.kont2-icons-twi {
+  margin-right: 13px;
+  font-size: 40px;
+  color: rgb(5, 148, 231);
+}
+
+.kont2-icons-face {
+  margin-right: 26px;
+  font-size: 40px;
+  color: rgb(11, 66, 248);
+}

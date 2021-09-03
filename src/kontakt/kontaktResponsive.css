@@ -1,0 +1,141 @@
+@media (max-width: 900px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .kontakt {
+    width: 768px;
+  }
+
+  .kont-header {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .kont-img {
+    width: 600px;
+  }
+
+  .kont-wrapp {
+    margin-top: 80px;
+    font-size: 28px;
+  }
+
+  .kont-container {
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  .icon-user {
+    margin-left: 70px;
+    margin-bottom: 15px;
+  }
+
+  .icon-phone {
+    margin-left: 72px;
+  }
+
+  .fa-phone {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .fa-user {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .kont1-item {
+    font-size: 15px;
+  }
+
+  .kont2 {
+    margin-left: 70px;
+  }
+
+  .kont2-nik {
+    margin-bottom: 28px;
+  }
+
+  .kont2-item {
+    font-size: 20px;
+  }
+
+  .kont2-icons-tel {
+    font-size: 30px;
+  }
+
+  .kont2-icons-ins {
+    font-size: 30px;
+  }
+
+  .kont2-icons-twi {
+    font-size: 30px;
+  }
+
+  .kont2-icons-face {
+    font-size: 30px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .kontakt {
+    width: 330px;
+  }
+
+  .kont-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .kont-img {
+    width: 300px;
+  }
+
+  .kont-wrapp {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .kont-container {
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kont1 {
+    margin-bottom: 30px;
+    flex: none;
+  }
+
+  .icon-user {
+    margin-left: 30px;
+  }
+
+  .icon-phone {
+    margin-left: 30px;
+  }
+
+  .kont2 {
+    margin-bottom: 600px;
+    margin-left: 30px;
+    flex: none;
+  }
+
+  .kont5-footer {
+    margin-top: 370px;
+  }
+}

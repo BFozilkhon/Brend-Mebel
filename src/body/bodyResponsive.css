@@ -1,0 +1,365 @@
+@media (max-width: 900px) {
+  .body-img-header {
+    margin-top: 70px;
+  }
+
+  .body-header {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+  }
+
+  .body-world {
+    font-size: 35px;
+    font-weight: 100px;
+    letter-spacing: 1;
+    line-height: 60px;
+  }
+
+  .text-animation {
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .text-animation h1:nth-child(1) {
+    animation: text-move 15s infinite;
+  }
+
+  @keyframes text-move {
+    0% {
+      margin-top: 8px;
+    }
+    25% {
+      margin-top: -55px;
+    }
+    45% {
+      margin-top: -109px;
+    }
+    65% {
+      margin-top: -170px;
+    }
+  }
+
+  .body-wrapp {
+    margin-top: 25px;
+    line-height: 18px;
+    font-size: 12px;
+  }
+
+  .body-img {
+    width: 150px;
+  }
+
+  .body-view {
+    padding: 9px 40px;
+    font-size: 13px;
+    margin-top: 35px;
+  }
+
+  .body-view:active {
+    padding: 8px 39px;
+  }
+
+  /* keyingis*/
+
+  .dostavka {
+    margin-top: 70px;
+  }
+
+  .dostavka-img {
+    width: 150px;
+    margin-left: 0;
+  }
+
+  .dostavka-2qism {
+    margin-top: 55px;
+    margin-bottom: 30px;
+  }
+
+  .dostavka-header {
+    font-size: 22px;
+    line-height: 30px;
+    width: 300px;
+  }
+
+  .dostavka-item {
+    font-size: 12px;
+    width: 295px;
+    margin-top: 24px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .dostavka-href {
+    font-size: 18px;
+  }
+
+  /* Google Karta */
+
+  .karta-logo {
+    width: 50px;
+  }
+
+  .karta-box {
+    margin-top: 110px;
+    margin-bottom: 50px;
+  }
+
+  .karta-header {
+    margin-left: 14px;
+    font-size: 28px;
+  }
+
+  .karta-img {
+    margin-top: 10px;
+    width: 550px;
+  }
+
+  /* Marketting */
+
+  .body-title {
+    font-size: 35px;
+    margin-top: 180px;
+    margin-bottom: 70px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .body-img-header {
+    margin-top: 50px;
+  }
+
+  .dumaloq1 {
+    top: 200px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    animation: dumaloq1 18s alternate linear infinite;
+  }
+
+  @keyframes dumaloq1 {
+    to {
+      transform: rotate(360deg);
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      top: -350px;
+      left: 100px;
+    }
+  }
+
+  .dumaloq2 {
+    top: 450px;
+    left: 80px;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    animation: dumaloq2 18s alternate linear infinite;
+  }
+
+  @keyframes dumaloq2 {
+    to {
+      transform: rotate(360deg);
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      top: -300px;
+      left: 200px;
+    }
+  }
+
+  .dumaloq3 {
+    top: 600px;
+    left: 200px;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    animation: dumaloq3 18s alternate linear infinite;
+  }
+
+  @keyframes dumaloq3 {
+    to {
+      transform: rotate(360deg);
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      top: -250px;
+      left: 60px;
+    }
+  }
+
+  .dumaloq4 {
+    top: 1000px;
+    left: 40px;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    /* animation: dumaloq4 18s alternate linear infinite; */
+  }
+
+  @keyframes dumaloq4 {
+    to {
+      transform: rotate(360deg);
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      top: -300px;
+      left: 180px;
+    }
+  }
+
+  .dumaloq5 {
+    top: 700px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    animation: dumaloq5 18s alternate linear infinite;
+  }
+
+  @keyframes dumaloq5 {
+    to {
+      transform: rotate(360deg);
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      top: -300px;
+      left: 290px;
+    }
+  }
+
+  .body-header {
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Metal Mania", cursive;
+  }
+
+  .body-world {
+    font-size: 20px;
+    font-weight: 100px;
+    letter-spacing: 1;
+    line-height: 28px;
+  }
+
+  .text-animation {
+    height: 30px;
+    overflow: hidden;
+  }
+
+  .text-animation h1:nth-child(1) {
+    animation: text-move 15s infinite;
+  }
+
+  @keyframes text-move {
+    0% {
+      margin-top: 0px;
+    }
+    25% {
+      margin-top: -30px;
+    }
+    45% {
+      margin-top: -60px;
+    }
+    65% {
+      margin-top: -90px;
+    }
+  }
+
+  .body-header {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 19px;
+  }
+
+  .body-wrapp {
+    margin-top: 18px;
+    line-height: 13px;
+    font-size: 11px;
+  }
+
+  .body-img {
+    width: 100px;
+  }
+
+  .body-view {
+    padding: 6px 30px;
+    font-size: 11px;
+    margin-top: 18px;
+  }
+
+  .body-view:active {
+    padding: 5.5px 29.5px;
+  }
+
+  /* keyingis*/
+
+  .dostavka {
+    margin-top: 50px;
+  }
+
+  .dostavka-img {
+    width: 170px;
+    height: 270px;
+    margin-left: -10px;
+  }
+
+  .dostavka-2qism {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+
+  .dostavka-header {
+    font-size: 14.5px;
+    line-height: 18px;
+    width: 150px;
+  }
+
+  .dostavka-item {
+    font-size: 10px;
+    width: 160px;
+    margin-top: 17px;
+    line-height: 12px;
+    margin-bottom: 5px;
+  }
+
+  .dostavka-href {
+    font-size: 13px;
+  }
+
+  /* Google Karta */
+
+  .karta-logo {
+    width: 25px;
+  }
+
+  .karta-box {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .karta-header {
+    margin-left: 9px;
+    font-size: 20px;
+  }
+
+  .karta-img {
+    margin-top: 6px;
+    width: 300px;
+  }
+
+  /* Marketting */
+
+  .body-title {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+}

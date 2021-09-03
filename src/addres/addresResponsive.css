@@ -1,0 +1,111 @@
+@media(max-width:900px){
+  
+body{
+    display: flex;
+    justify-content: center;
+}     
+
+.addres-card{
+    margin-left: 40px;
+}
+
+
+.foiz-item{
+    width: 700px;
+}
+
+.foiz-chegirma{
+    margin-left: 30px;
+}
+
+.foiz-dostavka{
+    width: 300px;
+    margin-right: 0;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:600px){   
+
+.addres-box{
+    margin-top: 50px;
+
+}
+
+.addres-card{
+    margin-left: 10px;
+}
+
+.addres-header{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.addres-item{
+    line-height: 15px;
+    font-size: 8px;
+}
+.addres-btn{
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-size: 13px;
+}
+
+.addres-btn:active{
+    padding: 8.5px 19.5px;
+}
+
+.addres-yangiilklar{
+      margin-top: 60px;
+}
+
+.addres-img{
+    width: 150px;
+    height: 300px;
+}
+
+
+.foiz-item{
+    width: 295px;
+    margin-left: 20px;
+    font-size: 8px;
+    line-height: 13px;
+    margin-top: 20px;
+}
+
+.foiz-header{
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.foiz-chegirma{
+    margin-left: 30px;
+}
+
+.foiz-va-chegirma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.foiz-chegirma{
+    width: 200px;
+    margin-right: 0;
+}
+
+.foiz-puls{
+    width: 100px;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.foiz-dostavka{
+    width: 200px;
+    margin-right: 0;
+}
+
+}

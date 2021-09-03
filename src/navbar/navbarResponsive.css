@@ -1,0 +1,95 @@
+@media (max-width: 900px) {
+  .navbar {
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .nav-logo {
+    width: 55px;
+    margin-left: 30px;
+  }
+
+  .nav-header {
+    margin-left: 6px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav-wrapp {
+    display: none;
+  }
+
+  .fa-navicon {
+    display: block;
+    font-size: 30px;
+    margin-right: 80px;
+    color: black;
+  }
+
+  .fa-close {
+    display: block;
+    font-size: 30px;
+    margin-right: 80px;
+  }
+
+  .item {
+    margin-top: 10px;
+    padding: 18px 70px;
+    font-size: 20px;
+  }
+
+  .login {
+    padding: 10px 50px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbar {
+    position: relative;
+    height: 30px;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .nav-logo {
+    width: 40px;
+    margin-left: 20px;
+  }
+
+  .nav-header {
+    margin-left: 6px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav-wrapp {
+    display: none;
+  }
+
+  .item {
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 11px;
+  }
+
+  .login {
+    padding: 10px 50px;
+    margin-bottom: 20px;
+  }
+
+  .login:active {
+    padding: 9.5px 49.5px;
+  }
+
+  .fa-navicon {
+    display: block;
+    font-size: 20px;
+    margin-right: 40px;
+    color: black;
+    margin-bottom: 20px;
+  }
+}

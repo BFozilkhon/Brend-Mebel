@@ -1,0 +1,132 @@
+.addres-box {
+  width: 100%;
+  display: flex;
+  margin-top: 90px;
+}
+
+.addres-card {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.addres-header {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: "Metal Mania", cursive;
+}
+
+.addres-item {
+  line-height: 18px;
+}
+
+.addres-img {
+  flex: 1;
+  width: 250px;
+}
+.addres-btn {
+  margin-top: 40px;
+  padding: 13px 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to left, rgb(228, 33, 33), rgb(247, 171, 9));
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.addres-btn:active {
+  padding: 12.5px 29.5px;
+}
+
+.addres-yangiilklar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.foiz-va-chegirma {
+  display: flex;
+  align-items: center;
+}
+
+.foiz-header {
+  font-size: 55px;
+  margin-top: 50px;
+  font-family: "Metal Mania", cursive;
+}
+
+.foiz-item {
+  width: 800px;
+  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  margin-top: 40px;
+}
+
+.foiz-chegirma {
+  width: 250px;
+  margin-right: 40px;
+  margin-left: 100px;
+}
+
+.foiz-puls {
+  width: 150px;
+  margin-right: 40px;
+}
+
+.foiz-dostavka {
+  width: 370px;
+  margin-right: 40px;
+}
+
+.add-dis {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.foiz-icon-circle {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.foiz-icon {
+  font-size: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+  animation: harakat 5s alternate linear infinite;
+}
+
+@keyframes harakat {
+  to {
+    transform: rotate(360deg);
+    color: rgb(47, 255, 92);
+  }
+}
+
+.foiz-boglanish {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background-color: green;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.foiz-boglanish:active {
+  padding: 11px 29px;
+}

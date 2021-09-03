@@ -1,0 +1,307 @@
+.body-img-header {
+  display: flex;
+  margin-top: 100px;
+}
+
+.dumaloq1 {
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90px;
+  height: 90px;
+  animation: dumaloq1 18s alternate linear infinite;
+}
+
+@keyframes dumaloq1 {
+  to {
+    transform: rotate(360deg);
+    border-radius: 30px;
+    background-color: rgb(229, 255, 0);
+    top: -400px;
+    left: 400px;
+  }
+}
+
+.dumaloq2 {
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  background-color: rgb(0, 89, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90px;
+  height: 90px;
+  animation: dumaloq2 18s alternate linear infinite;
+}
+
+@keyframes dumaloq2 {
+  to {
+    transform: rotate(360deg);
+    border-radius: 30px;
+    background-color: rgb(0, 255, 13);
+    top: -500px;
+    left: 100px;
+  }
+}
+
+.dumaloq3 {
+  position: absolute;
+  top: 2000px;
+  left: 150px;
+  background-color: rgb(255, 0, 221);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90px;
+  height: 90px;
+  animation: dumaloq3 23s alternate linear infinite;
+}
+
+@keyframes dumaloq3 {
+  to {
+    transform: rotate(360deg);
+    border-radius: 30px;
+    background-color: rgb(255, 102, 0);
+    top: -600px;
+    left: 300px;
+  }
+}
+
+.dumaloq4 {
+  position: absolute;
+  top: 2500px;
+  left: 100px;
+  background-color: rgb(0, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90px;
+  height: 90px;
+  animation: dumaloq4 23s alternate linear infinite;
+}
+
+@keyframes dumaloq4 {
+  to {
+    transform: rotate(360deg);
+    border-radius: 30px;
+    background-color: rgb(4, 133, 0);
+    top: -800px;
+    left: 800px;
+  }
+}
+
+.dumaloq5 {
+  position: absolute;
+  top: 1300px;
+  left: 700px;
+  background-color: rgb(140, 0, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90px;
+  height: 90px;
+  animation: dumaloq5 18s alternate linear infinite;
+}
+
+@keyframes dumaloq5 {
+  to {
+    transform: rotate(360deg);
+    border-radius: 30px;
+    background-color: rgb(170, 179, 97);
+    top: -700px;
+    left: 400px;
+  }
+}
+
+.body-header {
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  margin-left: 40px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: "Metal Mania", cursive;
+}
+
+.body-world {
+  font-size: 50px;
+  font-weight: 700px;
+  line-height: 70px;
+  letter-spacing: 1;
+}
+
+.text-animation {
+  height: 70px;
+  overflow: hidden;
+}
+
+.text-animation h1:nth-child(1) {
+  animation: text-move 15s infinite;
+}
+
+@keyframes text-move {
+  0% {
+    margin-top: 0px;
+  }
+  25% {
+    margin-top: -70px;
+  }
+  45% {
+    margin-top: -140px;
+  }
+  65% {
+    margin-top: -210px;
+  }
+}
+
+.body-wrapp {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  font-family: "Gamja Flower", cursive;
+}
+
+.body-img {
+  flex: 1;
+  width: 200px;
+}
+
+.body-view {
+  background-color: red;
+  padding: 9px 53px;
+  margin-top: 40px;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 3px solid red;
+}
+
+.body-view:hover {
+  background-color: white;
+  color: tomato;
+}
+
+.body-view:active {
+  padding: 11.5px 54.5px;
+}
+
+.dostavka {
+  display: flex;
+  margin-top: 100px;
+}
+
+.dostavka-img {
+  flex: 1;
+  width: 200px;
+  margin-left: -20px;
+}
+
+.dostavka-2qism {
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  font-size: 21.5px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: "Metal Mania", cursive;
+}
+
+.dostavka-item {
+  width: 400px;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-family: "Gamja Flower", cursive;
+}
+
+.dostavka-href {
+  font-family: monospace;
+}
+
+a {
+  font-family: unset;
+  text-decoration: none;
+  /* font-family: monospace; */
+}
+
+/* Google Karta */
+
+.karta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.karta-logo {
+  width: 80px;
+}
+
+.karta-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+
+.karta-header {
+  margin-left: 20px;
+  font-size: 39px;
+  font-family: "Lily Script One", cursive;
+}
+
+.karta-img {
+  margin-top: 20px;
+  width: 800px;
+}
+
+/* Marketing */
+
+.marketing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body-title {
+  font-size: 45px;
+  margin-left: 60px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-family: "Lily Script One", cursive;
+}
