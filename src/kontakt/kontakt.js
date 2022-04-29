@@ -11,7 +11,7 @@ export default class Kontakt extends Component {
             <div className='kontakt'>
                <div className='kontakt-box'>
                 <h1 className='kont-header'><i>"Brend Mebel bu sening tanloving"</i></h1>
-                <img src={kontaktImg} className='kont-img'/>
+                <img src={kontaktImg} className='kont-img' alt='imgs'/>
                     <h1 className='kont-wrapp'>Murojat uchun:</h1>
                </div>
 
@@ -57,28 +57,28 @@ export default class Kontakt extends Component {
                 <div className='kont2'>
 
                            
-                        <a target='_blank' href='https://t.me/brendmebel_uz'>
+                        <a target='blank' href='https://t.me/brendmebel_uz'>
                     <div className='kont2-nik'>
                         <i className='fa fa-telegram kont2-icons-tel'/>
                         <h2 className='kont2-item'>@BrendMebelUz</h2>
                     </div>
                         </a>
 
-                         <a href='https://www.instagram.com/brendmebel.uz/?hl=ru' target='_blank'>
+                         <a href='https://www.instagram.com/brendmebel.uz/?hl=ru' target='blank'>
                     <div className='kont2-nik'>
                         <i className='fa fa-instagram kont2-icons-ins'/>
                         <h2 className='kont2-item'>@BrendMebel.uz</h2>
                     </div>
                          </a>
 
-                          <a href='https://twitter.com/login?lang=ru' target='_blank'>
+                          <a href='https://twitter.com/login?lang=ru' target='blank'>
                     <div className='kont2-nik'>
                         <i className='fa fa-twitter kont2-icons-twi'/>
                         <h2 className='kont2-item'>@BrendMebel.uz</h2>
                     </div>
                          </a> 
 
-                         <a href='https://www.facebook.com/brendmebel.uzb' target="_blank">
+                         <a href='https://www.facebook.com/brendmebel.uzb' target="blank">
                     <div className='kont2-nik'>
                         <i className='fa fa-facebook kont2-icons-face'/>
                         <h2 className='kont2-item'>@BrendMebel.uz</h2>

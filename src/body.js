@@ -67,11 +67,11 @@ const Body = () => {
             <button className="body-view">View</button>
           </Link>
         </div>
-        <img src={body3d} width="20px" className="body-img" />
+        <img alt="imgs" src={body3d} width="20px" className="body-img" />
       </div>
 
       <div className="dostavka">
-        <img className="dostavka-img" src={dostavka} />
+        <img className="dostavka-img" alt="imgs" src={dostavka} />
         <div className="dostavka-2qism">
           <h1 className="dostavka-header">
             Ajoyib yangilik, Endi dostavka xizmatlari bepul.
@@ -90,14 +90,14 @@ const Body = () => {
 
       <div className="karta">
         <div className="karta-box">
-          <img className="karta-logo" src={kartaLogo} />
+          <img className="karta-logo" alt="imgs" src={kartaLogo} />
           <h1 className="karta-header">Brend Mebel - Google Karta</h1>
         </div>
         <a
-          target="_blank"
+          target="blank"
           href="https://www.google.com/maps/place/%D0%9C%D0%B0%D0%BB%D0%B8%D0%BA%D0%B0+%D0%91%D0%BE%D0%BD%D1%83/@41.3483462,69.1728602,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8e946b73658b:0x12d6d8af3152166a!8m2!3d41.3483462!4d69.1728602"
         >
-          <img src={karta} className="karta-img" />
+          <img alt="imgs" src={karta} className="karta-img" />
         </a>
       </div>
 

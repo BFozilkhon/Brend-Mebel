@@ -10,18 +10,18 @@ class Footer extends React.Component{
             <div className='footer-box'>
                 <div className='footer1'>
                     <div className='footer-logo-title'>
-                       <img className='footer-logo' src={logo}/>
+                       <img className='footer-logo' src={logo} alt='imgs'/>
                        <p className='footer-title'>Brend Mebel</p>
                     </div>
                     <p className='footer-matn'>Brend Mebel.uz - onlayn mebel do'koni. Biz qulay narxlarda sifatli mebellarni kafolat bilan taklif qilamiz. Mebel tanlashda sizga yordam berishdan mamnun bo'lamiz!</p>
                     <div className='footer-icons'>
-                        <a href='https://t.me/brendmebel_uz' target="_blank">
+                        <a href='https://t.me/brendmebel_uz' target="blank">
                         <i className='fa fa-telegram icon'/>
                         </a>
-                        <a href='https://www.facebook.com/brendmebel.uzb' target='_blank'>
+                        <a href='https://www.facebook.com/brendmebel.uzb' target='blank'>
                         <i className='fa fa-facebook icon'/>
                         </a>
-                        <a href='https://www.instagram.com/brendmebel.uz/?hl=ru' target="_blank">
+                        <a href='https://www.instagram.com/brendmebel.uz/?hl=ru' target="blank">
                         <i className='fa fa-instagram icon'/>
                         </a>
                     </div>

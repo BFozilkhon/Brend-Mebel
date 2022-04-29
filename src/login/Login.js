@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import loginImg from "../img/5.jpg";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 import BrendMebel from "../img/HaqiqiyBrend.png";
@@ -80,11 +79,11 @@ export default class Login extends Component {
             <p className="login-header">
               Sayt logindan muvafaqiyatli o`tidingiz.
             </p>
-            <img src={BrendMebel} className="login-head-img" />
+            <img alt="imgs" src={BrendMebel} className="login-head-img" />
           </div>
           <div className="log-dis">
             <h1 className="login-acc">Sizning Akkountingiz</h1>
-            <img className="login-img" src={this.state.img} />
+            <img className="login-img" alt="imgs" src={this.state.img} />
             <p className="login-item">
               {this.state.name2} {this.state.surname2}
             </p>
@@ -193,7 +192,7 @@ export default class Login extends Component {
 
         <div className={this.state.page ? "log-position" : "yoq"}>
           <div className="page-two">
-            <img className="logo-login" src={logo} />
+            <img className="logo-login" alt="imgs" src={logo} />
             <h1 className="login-wrapp">Brend Mebel</h1>
           </div>
 
@@ -201,10 +200,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.name2 == ""
+                  ? this.state.name2 === ""
                     ? "input"
                     : "input"
-                  : this.state.name2 == ""
+                  : this.state.name2 === ""
                   ? "hato"
                   : "input"
               }
@@ -215,10 +214,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.surname2 == ""
+                  ? this.state.surname2 === ""
                     ? "input"
                     : "input"
-                  : this.state.surname2 == ""
+                  : this.state.surname2 === ""
                   ? "hato"
                   : "input"
               }
@@ -229,10 +228,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.age2 == ""
+                  ? this.state.age2 === ""
                     ? "input"
                     : "input"
-                  : this.state.age2 == ""
+                  : this.state.age2 === ""
                   ? "hato"
                   : "input"
               }
@@ -244,10 +243,10 @@ export default class Login extends Component {
             <div
               className={
                 this.state.yes
-                  ? this.state.adress2 == ""
+                  ? this.state.adress2 === ""
                     ? "view-two"
                     : "view-two"
-                  : this.state.adress2 == ""
+                  : this.state.adress2 === ""
                   ? "view-hato"
                   : "view-two"
               }
@@ -268,10 +267,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.img2 == ""
+                  ? this.state.img2 === ""
                     ? "input"
                     : "input"
-                  : this.state.img2 == ""
+                  : this.state.img2 === ""
                   ? "hato"
                   : "input"
               }
@@ -282,10 +281,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.status2 == ""
+                  ? this.state.status2 === ""
                     ? "input"
                     : "input"
-                  : this.state.status2 == ""
+                  : this.state.status2 === ""
                   ? "hato"
                   : "input"
               }
@@ -296,10 +295,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.email2 == ""
+                  ? this.state.email2 === ""
                     ? "input"
                     : "input"
-                  : this.state.email2 == ""
+                  : this.state.email2 === ""
                   ? "hato"
                   : "input"
               }
@@ -310,10 +309,10 @@ export default class Login extends Component {
             <input
               className={
                 this.state.yes
-                  ? this.state.adress2 == ""
+                  ? this.state.adress2 === ""
                     ? "input"
                     : "input"
-                  : this.state.adress2 == ""
+                  : this.state.adress2 === ""
                   ? "hato"
                   : "input"
               }
@@ -331,13 +330,13 @@ export default class Login extends Component {
                 this.state.status2,
                 this.state.age2,
                 this.state.img2,
-                this.state.adress2 == "" ? isDefault : Page)
+                this.state.adress2 === "" ? isDefault : Page)
               }
             >
               Login
             </button>
             <p className="forgot">
-              Forgot Passwor? <a href="#">Sign In</a>
+              Forgot Passwor? <a href="#hello">Sign In</a>
             </p>
           </div>
         </div>

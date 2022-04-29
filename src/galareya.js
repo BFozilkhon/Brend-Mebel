@@ -75,19 +75,19 @@ const Galareya = () => {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-20-px"
       >
-        <img className="corousel-img" src={rasm1} />
-        <img className="corousel-img" src={rasm2} />
-        <img className="corousel-img" src={rasm3} />
-        <img className="corousel-img" src={rasm4} />
-        <img className="corousel-img" src={rasm5} />
-        <img className="corousel-img" src={rasm6} />
-        <img className="corousel-img" src={rasm7} />
-        <img className="corousel-img" src={rasm8} />
-        <img className="corousel-img" src={rasm9} />
-        <img className="corousel-img" src={rasm10} />
-        <img className="corousel-img" src={rasm11} />
-        <img className="corousel-img" src={rasm12} />
-        <img className="corousel-img" src={rasm13} />
+        <img className="corousel-img" alt="imgs" src={rasm1} />
+        <img className="corousel-img" alt="imgs" src={rasm2} />
+        <img className="corousel-img" alt="imgs" src={rasm3} />
+        <img className="corousel-img" alt="imgs" src={rasm4} />
+        <img className="corousel-img" alt="imgs" src={rasm5} />
+        <img className="corousel-img" alt="imgs" src={rasm6} />
+        <img className="corousel-img" alt="imgs" src={rasm7} />
+        <img className="corousel-img" alt="imgs" src={rasm8} />
+        <img className="corousel-img" alt="imgs" src={rasm9} />
+        <img className="corousel-img" alt="imgs" src={rasm10} />
+        <img className="corousel-img" alt="imgs" src={rasm11} />
+        <img className="corousel-img" alt="imgs" src={rasm12} />
+        <img className="corousel-img" alt="imgs" src={rasm13} />
       </Carousel>
 
       <div className="gal-box">

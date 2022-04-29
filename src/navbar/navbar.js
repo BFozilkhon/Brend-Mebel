@@ -1,5 +1,4 @@
 import React from "react";
-import { flushSync } from "react-dom";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 import "./navbar.css";
@@ -21,7 +20,7 @@ class Navbar extends React.Component {
     return (
       <div className="navbar">
         <div className="nav-logo-header">
-          <img src={logo} className="nav-logo" />
+          <img src={logo} className="nav-logo" alt="img" />
           <div className="nav-header">Brend Mebel</div>
         </div>
 
